@@ -43,7 +43,7 @@ const usePortfolioStore = create<PortfolioState>((set) => ({
 const projects: Project[] = [
   {
     id: 'proj-dialog', data: {
-      label: 'AI 对话模块【类 havivi】',
+      label: 'AI 对话模块',
       hoverText: '以 Query 改写和意图过滤提升会话稳定性', 
       category: 'AI 对话 / 大模型基建', 
       productType: '无屏终端智能对话系统',
@@ -284,22 +284,30 @@ const experiences: Experience[] = [
     company: '广东省贝恩施科技股份有限公司', 
     time: '2025.10 - 至今', role: '产品经理', 
     note: '负责并参与 AI 机器人、AI 打印机、AI 对话模块等共计15个项目，2026年内预计上市 9 款产品。',
-     x: 6, y: 80, lineHeight: 132 
+     x: 3, y: 80, lineHeight: 132 
     },
 
   {
    company: '天安数码城集团-深圳市智慧空间平台技术有限公司', 
     time: '2025.04 - 2025.07', role: 'AI 产品经理', 
     note: '完成物业 SaaS 中台优化与物业 Agent 设计研发，并推动桌面机器人 PoC 验证。', 
-    x: 40, y: 32, lineHeight: 160 
+    x: 28, y: 32, lineHeight: 160 
+  },
+
+  {
+    company: '金蝶软件（中国）有限公司',
+    time: '2024.06 - 2024.09',
+    role: '后端开发工程师（实习）',
+    note: '参与企业级 ERP/SaaS 系统核心业务模块开发，完成高并发 CRUD 业务迭代、接口性能优化与数据持久化改造。',
+    x: 52, y: 80, lineHeight: 132 
   },
 
   { 
     company: '深圳市嘉明福科技有限公司', 
-    time: '2022.07 - 2025.03',
+    time: '2022.07 - 2023.03',
     role: '电商运营 / 全栈工程师', 
     note: '负责电商运营与公司内部使用的仓储系统全栈开发，推进增长项目和仓储协同能力建设。', 
-    x: 75, y: 92, lineHeight: 120 
+    x: 78, y: 92, lineHeight: 120 
   },
 ]
 
